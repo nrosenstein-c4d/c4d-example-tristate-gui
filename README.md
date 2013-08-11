@@ -6,7 +6,7 @@ is a traffic-light like interface for representing three states: Undefined,
 On and Off. This is very similar to the editor- and rendermodes of objects
 in the Cinema 4D Object Manager.
 
-![image.png]
+![Example of the traffic-lights GUI](image.png)
 
 Installation
 ============
