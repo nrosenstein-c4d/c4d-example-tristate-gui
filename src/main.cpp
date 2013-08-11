@@ -41,27 +41,3 @@ void PluginEnd() {
     FreeTriStateGui();
 }
 
-
-
-#include <c4d.h>
-
-extern Bool RegisterTriStateGui();
-extern void FreeTriStateGui();
-
-Bool PluginStart() {
-    if (!RegisterTriStateGui()) return FALSE;
-    return TRUE;
-}
-
-Bool PluginMessage(LONG type, void* pData) {
-    switch (type) {
-        case C4DPL_INIT_SYS:
-            return resource.Init();
-    };
-    return TRUE;
-}
-
-void PluginEnd() {
-    FreeTriStateGui();
-}
-
