@@ -1,0 +1,5 @@
+STRINGTABLE {
+    IDC_UNDEF "Undefined";
+    IDC_ON "On";
+    IDC_OFF "Off";
+}
