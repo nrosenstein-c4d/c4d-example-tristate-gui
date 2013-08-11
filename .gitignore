@@ -4,14 +4,6 @@
 *.o
 *.obj
 
-# Compiled Dynamic libraries
-*.so
-*.so64
-*.dylib
-*.dylib64
-*.cdl
-*.cdl64
-
 # Compiled Static libraries
 *.lai
 *.la
