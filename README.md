@@ -15,6 +15,26 @@ The current binaries in the repository are built for Cinema 4D R14+ on Mac
 and R13+ on Windows (will be added soon). Simply copy the folder to your
 Cinema 4D plugins directory.
 
+Usage
+=====
+
+The resource identifier for this custom GUI is `TRISTATE`. You can use the
+custom GUI on `LONG` (and soon for `BOOL`) datatypes.
+
+    CONTAINER Omyobject {
+        NAME Omyobject;
+        INCLUDE Obase;
+        
+        GROUP ID_OBJECTPROPERTIES {
+            LONG MYOBJECT_TRISTATEPARAMETER { CUSTOMGUI TRISTATE; }
+        }
+    }
+
+The values this custom GUI can represent are `MODE_UNDEF`, `MODE_ON` and
+`MODE_OFF` which are defined in the Cinema 4D C++ SDK and in the Python4D
+module.
+        
+
 License
 =======
 
