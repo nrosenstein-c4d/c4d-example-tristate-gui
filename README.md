@@ -11,9 +11,16 @@ in the Cinema 4D Object Manager.
 Installation
 ============
 
-The current binaries in the repository are built for Cinema 4D R14+ on Mac
-and R13+ on Windows (will be added soon). Simply copy the folder to your
-Cinema 4D plugins directory.
+The binaries are not compatible between versions of Cinema and have to be
+rebuilt for each different release. At the current state of the repository,
+pre-built binaries are available for
+
+- R14: Mac + Windows
+- R15: Windows
+
+Simply extract the contents of the ZIP file depending on the Cinema 4D
+version you use. Using the wrong binaries can lead to crashes and instability
+of the program!
 
 Usage
 =====
